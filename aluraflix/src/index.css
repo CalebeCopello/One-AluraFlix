@@ -25,3 +25,9 @@
     padding: 3px;
     margin: 3px;
 }
+.top-shadow {
+    box-shadow: 0px -4px 5px 0px var(--blue);
+}
+.bottom-shadow {
+    box-shadow: 0px 4px 5px 0px var(--blue);
+}

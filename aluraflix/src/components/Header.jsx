@@ -3,7 +3,7 @@ import '../index.css';
 const Header = () => {
 	return (
 		<>
-			<nav className='flex items-center px-5 bg-black bg-opacity-70 h-[125px] border-b-4 border-alblue shadow-md shadow-alblue'>
+			<nav className='flex items-center px-5 bg-black bg-opacity-70 h-[125px] border-b-4 border-alblue bottom-shadow'>
 				<div className='flex flex-row w-full'>
 					<div>
 						<img
