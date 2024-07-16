@@ -36,7 +36,16 @@ function Index() {
 	}, []);
 
 	const handleDeleteVideo = (id) => {
-		console.log(id);
+		axios
+				.delete(`${URL}/videos/${id}`)
+				.then(function (response) {
+					console.log(response);
+				})
+				.catch(function (error) {
+					alert('Erro ao deletar o Video');
+					console.error(error);
+				});
+		}
 	};
 	const handleEditVideo = (id) => {
 		console.log(videos[id]);
@@ -71,7 +80,7 @@ function Index() {
 					console.log(response);
 				})
 				.catch(function (error) {
-					alert('Erro ao adicionar o Video');
+					alert('Erro ao editar o Video');
 					console.error(error);
 				});
 		}
