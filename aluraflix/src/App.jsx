@@ -1,16 +1,26 @@
-import Header from './components/Header';
-
-import './App.css';
-import Footer from './components/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Index from './pages/Index';
+import AddVideo from './pages/AddVideo';
 
 function App() {
 	return (
 		<>
-			<Header />
-			<main className='flex w-full my-5'>
-				<h1 className='text-3xl font-bold underline '>Hello world!</h1>
-			</main>
-			<Footer />
+			<BrowserRouter>
+				<Routes>
+					<Route
+						path='/'
+						element={<Index />}
+					/>
+					<Route
+						path='/addVideo'
+						element={<AddVideo />}
+					/>
+					<Route
+						path='*'
+						element={<div>404</div>}
+					/>
+				</Routes>
+			</BrowserRouter>
 		</>
 	);
 }

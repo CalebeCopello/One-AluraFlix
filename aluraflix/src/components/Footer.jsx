@@ -1,5 +1,6 @@
 import logo from '../../public/imgs/logo.png';
 import '../index.css';
+
 const Footer = () => {
 	return (
 		<>

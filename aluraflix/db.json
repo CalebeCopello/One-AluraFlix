@@ -1,0 +1,101 @@
+{
+	"categorias": [
+		{
+			"id": 0,
+			"nome": "Inteligencia Artificial (IA)",
+			"cor": "#FFBA05"
+		},
+		{
+			"id": 2,
+			"nome": "Back End",
+			"cor": "#00C86F"
+		},
+		{
+			"id": 1,
+			"nome": "Front End",
+			"cor": "#03dffc"
+		}
+	],
+	"videos": [
+		{
+			"id": "0",
+			"titulo": "Entendendo o Básico de IA e Redes Neurais - IAs vão te substituir??",
+			"categoria": 0,
+			"url": "https://www.youtube.com/embed/UDrDg6uUOVs?si=VoTRWeno8c_aHPSM",
+			"thumbnail": "https://i3.ytimg.com/vi/UDrDg6uUOVs/maxresdefault.jpg",
+			"description": "Sora acabou de sair, Gemini acabou de sair, GPT 5 tá prometido pra em breve, todo programador morrendo de medo do novo Devin, que nem saiu ainda mas promete substituir programadores."
+		},
+		{
+			"id": "1",
+			"titulo": "O que IAs podem fazer? | Exemplos de Ferramentas",
+			"categoria": 0,
+			"url": "https://www.youtube.com/embed/CZSGIeRmYn8?si=fwv2vrcixo3LHIkL",
+			"thumbnail": "https://i3.ytimg.com/vi/CZSGIeRmYn8/maxresdefault.jpg",
+			"description": "Sim, este episódio foi inteiramente gerado por ferramentas de IA, em particular HeyGen e ElevenLabs. Fiz bem curto pra não ficar cansativo demais. Mesmo sendo impressionante, no atual estágio não é possível fazer videos do tamanho que costumo fazer no canal."
+		},
+		{
+			"id": "2",
+			"titulo": "Front End Developer Roadmap 2024",
+			"categoria": 1,
+			"url": "https://www.youtube.com/embed/9He4UBLyk8Y?si=CgiqEjawt4YcApdr",
+			"thumbnail": "https://i3.ytimg.com/vi/9He4UBLyk8Y/maxresdefault.jpg",
+			"description": "Learn what technologies you should learn first to become a front end web developer."
+		},
+		{
+			"id": "3",
+			"titulo": "From 0 to Front-End Developer in 12 Months: The Complete Roadmap",
+			"categoria": 1,
+			"url": "https://www.youtube.com/embed/Tef1e9FiSR0?si=kqAtWVFwInWnRanu",
+			"thumbnail": "https://i3.ytimg.com/vi/Tef1e9FiSR0/maxresdefault.jpg",
+			"description": "The essential skills and latest technologies to become a front-end developer in 2024. We'll cover each skill and the time needed to learn it."
+		},
+		{
+			"id": "4",
+			"titulo": "Back End Developer Roadmap 2024",
+			"categoria": 2,
+			"url": "https://www.youtube.com/embed/tN6oJu2DqCM?si=40LLhzP2IC9w_icT",
+			"thumbnail": "https://i3.ytimg.com/vi/tN6oJu2DqCM/maxresdefault.jpg",
+			"description": "Learn what technologies you should learn first to become a back end web developer."
+		},
+		{
+			"id": "5",
+			"titulo": "Título",
+			"categoria": 1,
+			"url": "Video Link",
+			"thumbnail": "Imagem",
+			"description": "Descrição"
+		},
+		{
+			"id": "6",
+			"titulo": "asdf",
+			"categoria": 0,
+			"url": "asdf",
+			"thumbnail": "asdf",
+			"description": "asdf"
+		},
+		{
+			"id": "7",
+			"titulo": "asdf",
+			"categoria": 2,
+			"url": "asdf",
+			"thumbnail": "asdf",
+			"description": "asdf"
+		},
+		{
+			"id": "8",
+			"titulo": "fasdf",
+			"categoria": 0,
+			"url": "asdf",
+			"thumbnail": "asdf",
+			"description": "asdf"
+		},
+		{
+			"id": "9",
+			"titulo": "fasdf",
+			"categoria": 0,
+			"url": "asdf",
+			"thumbnail": "asdf",
+			"description": "asdf"
+		}
+	]
+}

@@ -1,5 +1,6 @@
 import logo from '../../public/imgs/logo.png';
 import '../index.css';
+
 const Header = () => {
 	return (
 		<>
@@ -13,12 +14,21 @@ const Header = () => {
 						/>
 					</div>
 					<div className='flex-grow flex justify-end'>
-						<button className='btn-default w-[180px]'>Home</button>
-						<button className='btn-white w-[180px]'>Novo Vídeo</button>
+						<a
+							href='/'
+							className='flex btn-default w-[180px]'
+						>
+							<span className='mx-auto'>Home</span>
+						</a>
+						<a
+							href='/addVideo'
+							className='flex btn-white w-[180px]'
+						>
+							<span className='mx-auto'>Novo Vídeo </span>
+						</a>
 					</div>
 				</div>
 			</nav>
-			
 		</>
 	);
 };
